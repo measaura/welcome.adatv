@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="welcome.adatv" name="ADAtv Welcome Screen" version="1.0.0" provider-name="dinas">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.python.weather" library="welcome.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Welcome Screen by ADAtv</summary>
+		<summary lang="en_NZ">Welcome Screen by ADAtv</summary>
+		<summary lang="en_US">Welcome Screen by ADAtv</summary>
+		<summary lang="id">Skrin Selamat Datang oleh ADAtv</summary>
+		<description lang="en">Welcome Screen service for integration with FMS/HMS platform DB</description>
+		<description lang="en_NZ">Weather forecast provided by Yahoo! Weather (http://weather.yahoo.com/)</description>
+		<description lang="en_US">Weather forecast provided by Yahoo! Weather (http://weather.yahoo.com/)</description>
+		<disclaimer lang="en">Use of this add-on implies that you have agreed to the Terms of Service located at http://developer.yahoo.com/weather/#terms</disclaimer>
+		<disclaimer lang="en_NZ">Use of this add-on implies that you have agreed to the Terms of Service located at http://developer.yahoo.com/weather/#terms</disclaimer>
+		<disclaimer lang="en_US">Use of this add-on implies that you have agreed to the Terms of Service located at http://developer.yahoo.com/weather/#terms</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=169410</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/measaura/welcome.adatv</source>
+	</extension>
+</addon>
