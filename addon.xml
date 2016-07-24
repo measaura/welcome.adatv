@@ -4,7 +4,7 @@
 		<import addon="xbmc.python" version="2.19.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
 	</requires>
-	<extension point="xbmc.python.weather" library="welcome.py"/>
+	<extension point="xbmc.python.script" library="welcome.py"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Welcome Screen by ADAtv</summary>
 		<summary lang="en_NZ">Welcome Screen by ADAtv</summary>
